@@ -39,11 +39,11 @@
         echo 
         '<div class="page-wrapper">';
             include 'sidebar.php';
-            '<div class="page-container">';
+            echo '<div class="page-container">';
                 include 'header.php';
-                include 'content.php';
-            '</div>';
-        echo '</div>';
+                // include 'content.php';
+            echo '</div>
+                </div>';
     ?>
     
 </body>
