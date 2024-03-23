@@ -31,7 +31,9 @@
     <link href="/FashionStore/vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
+    <link href="/FashionStore/css/FormDisplay.css" rel="stylesheet" media="all">
     <link href="/FashionStore/css/theme.css" rel="stylesheet" media="all">
+
 </head>
 
 <body>
@@ -39,8 +41,8 @@
         echo 
         '<div class="page-wrapper">';
             include 'sidebar.php';
+            include 'header.php';
             echo '<div class="page-container">';
-                include 'header.php';
                 // include 'content.php';
             echo '</div>
                 </div>';
