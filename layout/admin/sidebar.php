@@ -12,7 +12,7 @@
                         <i class="fas fa-tachometer-alt"></i>Quản lý sản phẩm</a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
-                            <a href="/FashionStore/layout/admin/product/color.php">Quản lý màu sắc</a>
+                            <a href="/FashionStore/layout/admin/color/color.php">Quản lý màu sắc</a>
                         </li>
                         <li>
                             <a href="index2.html">Dashboard 2</a>
