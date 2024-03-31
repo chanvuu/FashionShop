@@ -1,9 +1,5 @@
 <?php
-    $server = "localhost";
-    $user = "root"; 
-    $password = ""; 
-    $database = "qlbanqa";
-    $con = mysqli_connect($server, $user, $password, $database);
+    include 'database/ConnectDatabase.php';
 
     $id = $_GET['id'];
     $sql = "SELECT `categories`.`NAME` FROM `categories` WHERE `categories`.`IDCA` = '$id'";

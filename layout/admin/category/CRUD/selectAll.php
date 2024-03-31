@@ -1,13 +1,5 @@
 <?php 
-    $server = "localhost";
-    $user = "root"; 
-    $password = ""; 
-    $database = "qlbanqa";
-    $con = mysqli_connect($server, $user, $password, $database);
-
-    if (mysqli_connect_errno()) {
-        die("Connection failed" . mysqli_connect_error());
-    }
+    include 'database/ConnectDatabase.php';
 
     $query = "SELECT * FROM `categories` WHERE status='0'";
     $result = mysqli_query($con, $query);

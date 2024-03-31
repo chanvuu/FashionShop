@@ -81,6 +81,8 @@
                 });
         });
     });
+
+    
     //cancel-edit
     document.querySelector("#cancelBtn").addEventListener("click", function() {
         document.getElementById("edit-item-form").style.display = "none"; // Ẩn block chỉnh sửa
